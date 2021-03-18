@@ -1,0 +1,112 @@
+
+body{
+    min-width: 966px;
+}
+.Link-container{ 
+    text-align: right;
+    padding: 20px; 
+}
+#l1{
+    display: block;
+    margin-bottom:2px; 
+}
+
+.center{
+    display: block;
+    
+    
+    align-items:center;
+    margin-top:5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.input-container{
+    min-width: 600px;
+    
+    align-items: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 38%;
+    height: 46px;
+    padding:0.5%;
+    
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid rgba(208, 208, 212, 0.98);
+}
+.input-field{
+    display: inline-block;
+    margin-left:1.5%;
+    padding:0.5%;  
+    width:88%;
+    border:none;
+    font-size: 17px;
+}
+i{
+    display: inline-block;
+    color:rgb(174, 174, 184);
+    margin-left:0.5%;
+}
+.input-field:focus{
+    outline: none;
+}
+.input-container:focus,.input-container:hover{
+    outline: none;
+    box-shadow: 1px 0.5px 2px 2px rgba(216, 216, 218, 0.98);
+   
+}
+.close-icon {
+   border:1px solid transparent;
+    background-color: transparent;
+      display: inline-block;
+        vertical-align: middle;
+        outline: 0;
+        cursor: pointer;
+       
+ }
+
+ .close-icon:after {
+     
+      content: "X";
+      z-index:1;
+    text-align: center;
+     color:rgb(174, 174, 184);
+     font-weight: normal;
+     font-size: 17px;
+    cursor: pointer;
+}
+.input-field:not(:valid) ~ .close-icon{
+    display:none;
+    
+}
+
+.button-container{
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 2%;
+    
+    width: 18%;
+    flex-wrap:nowrap;
+    gap:10px;
+  
+    
+}
+.buttons{
+    height:35px;
+    width: 60%;
+    background-color: rgb(233, 233, 240,0.35);
+    border:none;
+}
+#Lucky{
+    width:100%;
+}
+.buttons:hover{
+    border:rgb(174, 174, 184,0.5) 1px solid;
+    border-radius:3px;
+}

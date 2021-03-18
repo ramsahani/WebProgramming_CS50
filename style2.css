@@ -1,0 +1,122 @@
+
+body{
+    min-width: 966px;
+}
+.Link-container{ 
+    text-align: right;
+    padding: 20px; 
+}
+#l1{
+    display: block;
+    margin-bottom:2px; 
+}
+
+.center{
+    min-width: 600px;
+    
+}
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top:5%;
+}
+.logo-text{
+    
+    min-width: 600px;
+    position:relative;
+    display: block;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}  
+#itext{
+    padding-left:370px;
+    color: #4285f4;
+}     
+
+.input-container{
+    min-width: 600px;
+    
+    align-items: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 38%;
+    height: 46px;
+    padding:0.5%;
+    
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid rgba(208, 208, 212, 0.98);
+}
+.input-box{
+   
+    margin-left:1.5%;
+    display: inline;
+      
+    width:80%;
+}
+.input-field{
+    padding:0.5%;
+    width:79%;
+    border:none;
+    font-size: 17px;
+}
+i{
+    display: inline-block;
+    color:rgb(174, 174, 184);
+    margin-left:0.5%;
+}
+.input-field:focus{
+    outline: none;
+}
+.input-container:focus,.input-container:hover{
+    outline: none;
+    box-shadow: 1px 0.5px 2px 2px rgba(216, 216, 218, 0.98);
+   
+}
+.close-icon {
+   border:1px solid transparent;
+    background-color: transparent;
+      display: inline-block;
+        vertical-align: middle;
+        outline: 0;
+        cursor: pointer;
+       
+ }
+
+ .close-icon:after {
+     
+      content: "X";
+      z-index:1;
+    text-align: center;
+     color:rgb(174, 174, 184);
+     font-weight: normal;
+     font-size: 17px;
+    cursor: pointer;
+    border-right: black 1px solid;
+    padding-right: 5px;
+}
+.input-field:not(:valid) ~ .close-icon{
+    display:none;
+    
+}
+.search{
+    float: right;
+    display: block;
+   margin-right: 13px;
+    align-items: right;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    
+}
+.search > i{
+    font-size: 25px;
+    color:rgb(0, 140, 221)
+}
+
